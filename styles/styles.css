@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../assets/bg.png') ;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    /* background-color: rgb(230, 197, 197); */
+    margin-top: 4vh;
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #ffc233;
+    font-weight: 500;
+    font-family: "Red Rose";
+  font-style: normal;
+}
+
+.header-div{
+    display: flex;
+ align-items: center;
+ justify-content: space-between; 
+}
+.header-div img{
+    height: 5vh;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 3vw;
+    cursor:normal;
+}
+.nav ul li a{
+    font-weight: bold;
+}
+.header-div button{
+    background-color: #a93753;
+    color: white;
+    border: 1px solid #a93753;
+    padding:1.5vh 3vw;
+    cursor: pointer;
+    width: fit-content;
+    font-family: "Red Rose";
+    font-style: normal;
+}
+main{
+   align-self: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+main h1{
+    color: #ffc233;
+font-size: 11vh;
+font-weight: 400;
+text-align: center;
+margin-top: 10vh;
+font-family: "Dela Gothic One", cursive;
+font-style: normal;
+line-height: 14vh;
+}
+main button{
+    background-color: #a93753;
+    color: white;
+    border: 1px solid #a93753;
+    padding:2vh 3vw;
+    font-size: 3vh ;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    margin-top: 5vh;
+    font-family: "Red Rose";
+    font-style: normal;
+    line-height: 3vh;
+}
+footer{
+    display: flex;
+    justify-content: right;
+    margin-right: 0;
+}
+footer img{
+    height: 25vh;
+}
